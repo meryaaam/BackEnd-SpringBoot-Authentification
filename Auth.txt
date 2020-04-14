@@ -1,0 +1,41 @@
+{
+	"username": "naruro",
+	"email" : "naruto_uzamaki@gmail.com",
+    "firstname" : "naruro" , 
+    "lastname" : "uzamaki" ,
+	"password": "naruto1278",
+    "roles" : "admin"
+}
+
+
+
+{
+	"username": "kakashi",
+	"email" : "kakashihatake@gmail.com",
+    "firstname" : "kakashi" , 
+    "lastname" : "hatake" ,
+	"password": "12345678",
+    "roles" : "mod"
+}
+
+
+
+{
+	"username": "sasuke",
+	"email" : "sasuke_uchiha@gmail.com",
+    "firstname" : "sasuke" , 
+    "lastname" : "uchiha" ,
+	"password": "sasuke_uchiha",
+    "roles" : "user"
+}
+
+
+{
+	"username": "levy",
+	"email" : "lify_ackerman@gmail.com",
+    "firstname" : "lify" , 
+    "lastname" : "ackerman" ,
+	"password": "12345678" , 
+	"roles" :["admin"]
+}
+
