@@ -32,6 +32,17 @@ public class JwtResponse {
 	    this.Lastname = Lastname ; 
 
 	}
+	
+	public JwtResponse( Long id, String username,  String email,String firstname , String Lastname ) {
+
+		this.id = id;
+		this.username = username;
+		this.email = email;
+	
+		this.firstname = firstname ; 
+	    this.Lastname = Lastname ; 
+
+	}
 
 	public String getAccessToken() {
 		return token;

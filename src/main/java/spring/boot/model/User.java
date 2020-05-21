@@ -26,22 +26,25 @@ public class User {
     @SequenceGenerator(name = "USER_SEQ", sequenceName = "USER_SEQ", allocationSize = 1)
 	private Long id;
 
+	
+	
 	 @Column(name = "USERNAME", length = 50, unique = true)
-	    @NotNull
+	 
+	    @NotNull(message = "Username is required .")
 	    @Size(min = 4, max = 50)
 	    private String username;
 	 
 	 
-	 @Column(name = "EMAIL", length = 50)
+	 @Column(name = "EMAIL", length = 50 , unique = true)
 	    @Email
-	    @NotNull
+	    @NotNull(message = "Email is required .")
 	    @Size(min = 4, max = 50)
 	    private String email;
 	 
 	 
 	    @JsonIgnore
 	    @Column(name = "PASSWORD", length = 100)
-	    @NotNull
+	    @NotNull(message = "Password is required .")	
 	    @Size(min = 4, max = 100)
 	    private String password;
 
